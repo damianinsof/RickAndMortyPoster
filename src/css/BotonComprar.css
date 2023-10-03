@@ -1,0 +1,30 @@
+
+.buttonContent{
+    padding-top: 20px;
+    display: flex;
+    justify-content: center;
+
+}
+middle{
+    width: 200px;
+    display: flex;
+    margin-top: 30px;
+    margin-left: 100px;
+    background-color: rgb(131, 217, 157);
+    color: azure;
+}
+.little {
+
+    display: flex;
+    font-size: larger;
+    padding-left: 20px;
+    align-items: center;
+    justify-items: center;
+    width: 50px;
+    color: rgb(246, 251, 172);
+}
+.little button:hover{
+    display: flex;
+    background-color: coral;
+    color: blue;
+}

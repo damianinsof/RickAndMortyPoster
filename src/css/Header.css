@@ -1,0 +1,115 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+header img {
+    display: flex;
+    width: 240px;
+}
+.cabecera{
+    display: flex;
+    flex-direction: column;
+    background-color: #f9f9f9;
+    border-radius: 50px;
+
+    justify-content: space-around;
+}
+.cab-primera-linea{
+    display: flex;
+    justify-content: space-around;
+}
+.cab-primera-linea img{
+    position: relative;
+   top: 30px
+;
+}
+.carrito{
+    position: relative;
+    top: 30px;
+    right: 80px;
+    border-radius: 5px;
+    width: 45px;
+
+
+}
+.cant-tot-compra{
+    display: flex;
+    justify-content: center;
+    background-color: red;
+    border-radius: 20px;
+    position: relative;
+    top: -60px;
+    right: -40px;
+    font-size: 30px;
+}
+.menu-button{
+    position: relative;
+    left: 500px;
+    display: flex;
+    font-size: larger;
+    font-weight: 800;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 5px;
+
+}
+.menu-button span{
+    font-size: 12px;
+    margin-left: 20px;
+    padding: 4px 14px ;
+    background-color: darkgray;
+    color: bisque;
+    border-radius: 10px;
+}
+/* Botones de páginas */
+.botones{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    position: relative;
+    top: -10px;
+
+}
+h1{
+    display: flex;
+    font-size: 50px;
+    font-weight: 700;
+    font-size: 90px;
+    padding: 0px;
+    color: rgb(0, 0, 0);
+    position: relative;
+    left: -100px;
+    /* color:rgb(212, 232, 192); */
+    /* -webkit-text-stroke: 3px green; */
+}
+
+button{
+      background-color: rgb(42, 7, 241);
+    color: rgba(255, 255, 255, 0.841);
+    font-size: 30px;
+    border-radius: 10px;
+    width: 200px;
+    height: 40px;
+ 
+
+}
+
+button:hover{
+    background-color: rgba(6, 74, 220, 0.442);
+    color: aquamarine;
+    cursor:pointer
+}
+button:disabled{
+    background-color: rgb(181, 181, 187);
+}
+.intraButton{
+    display: flex;
+    align-items: center;
+    font-size: 30px;
+    font-size: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    color: rgba(34, 18, 213, 0.324) ;
+    -webkit-text-stroke: 2px rgb(38, 24, 230);
+
+}
