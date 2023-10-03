@@ -23,7 +23,7 @@ const sumPedido = cart.reduce((acumulo, pedido) => {
    return (
     <header className='cabecera'>
       <div className='cab-primera-linea'>
-        <img src="../assets/posters.png" alt="" />
+        <img src="http://imgfz.com/i/kbEu63Q.png" alt="" />
         <h1> Rick And Morty </h1>
         <div className='carrito' >
           <FiShoppingCart size='40px'/>
