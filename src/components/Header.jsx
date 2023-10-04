@@ -31,7 +31,7 @@ const sumPedido = cart.reduce((acumulo, pedido) => {
         </div>
         <ShopDetail verDetail={verShopDetail} cerrar={()=>SetVerShopDetail(false)} totPedido={sumPedido}/>
       </div>
-      
+      <Link to={'/contact'}><span className='contact-header'>Contact</span></Link> 
       <div className='menu-button'>
         <Link to={'/home'}><span>Character</span></Link> 
         <Link to={'/locationAll'}><span>Locations</span></Link>

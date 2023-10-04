@@ -1,0 +1,22 @@
+
+
+form h2{
+    margin-bottom: 30px;
+}
+.contact-contact{
+    display:flex;
+    margin-top:70px;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+
+.botones-contact{
+    display: flex;
+    flex-direction: row;
+    padding: 20px 20px 40px ;
+    margin-left:20px 40px 30px ;
+    justify-content: center;
+    align-items: center;
+}

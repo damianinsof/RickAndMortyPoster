@@ -2,7 +2,7 @@
 .content-location{
     display: flex;
     flex-wrap: wrap;
-    background-color: blueviolet;
+    background-color: rgb(168, 87, 244);
 }
 .card-locationAll{
     display: flex;

@@ -5,6 +5,7 @@
 header img {
     display: flex;
     width: 240px;
+       
 }
 .cabecera{
     display: flex;
@@ -54,11 +55,24 @@ header img {
 
 }
 .menu-button span{
-    font-size: 12px;
-    margin-left: 20px;
+    font-size: 20px;
+    font-family: 'Arial Narrow', Arial, sans-serif;
+    margin-left: 10px;
     padding: 4px 14px ;
-    background-color: darkgray;
+    background-color: rgb(142, 140, 140);
     color: bisque;
+    border-radius: 10px;
+}
+.contact-header{
+    font-size: 20px;
+    font-family: 'Arial Narrow', Arial, sans-serif;
+    margin-left: 10px;
+    padding: 4px 14px ;
+    background-color: rgb(142, 140, 140);
+    color: bisque;
+    position: relative;
+    right: -90px;
+    top:33px;
     border-radius: 10px;
 }
 /* Botones de páginas */

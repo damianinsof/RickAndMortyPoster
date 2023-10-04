@@ -11,8 +11,7 @@ const PageRouter = () => {
             <Route path='/home' element={<Home/>}/>
             <Route path='/locationAll/' element={<LocationAll/>}/>
             <Route path='/episodeAll/' element={<EpisodeAll/>}/>  
-
-   
+            <Route path='/contact/' element={<Contact/>}/>  
             <Route path='/detail/:id' element={<PosterDetail/>}/>
             <Route path='/location/:id' element={<Location/>}/>
             <Route path='/episode/:id' element={<Episode/>}/>
